@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Provider } from'react-redux'
 import { createStore } from 'redux'
-import { rootReducer } from './RootReducer'
+import { rootReducer } from './root.reducer'
 import PropTypes from 'prop-types'
 import ThemeProvider from '@material-ui/styles/ThemeProvider'
 

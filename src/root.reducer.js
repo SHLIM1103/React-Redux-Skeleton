@@ -8,3 +8,5 @@ export const rootReducer = combineReducers({
     UserLoginReducer,
     UserUpdateReducer
 })
+
+export default rootReducer
